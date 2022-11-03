@@ -39,12 +39,6 @@ facing capabilities that may not have been announced yet.  Please email
 OpenBMC.Support@intel.com to discuss. Appropriate licenses will be applied to
 the portions of this codebase that are approved for upstreaming.
 
-### How to build for Wolf Pass
-```bash
-export TEMPLATECONF=meta-openbmc-mods/meta-wolfpass/conf
-source oe-init-build-env
-bitbake intel-platforms
-```
 ### How to build for Intel reference
 ```bash
 export TEMPLATECONF=meta-openbmc-mods/meta-wht/conf
